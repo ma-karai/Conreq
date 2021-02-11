@@ -26,6 +26,9 @@ BASE_URL = "requests"                     # default: none
 DATA_DIR = "/example/directory"           # default: /config (defaults to "data" outside of docker)
 DB_ENGINE = "MYSQL"                       # default: SQLITE3
 MYSQL_CONFIG_FILE = "/config/mysql.cnf"   # default: none
+PUID = "911"                               # default: 911
+PGID = "911"                               # default: 911
+
 
 # Security
 DEBUG = False                             # default: true (NEVER enable this in production)
